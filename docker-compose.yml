@@ -4,6 +4,6 @@ services:
   goapp:
     build: .
     volumes:
-      - ./src:/go/src/app
+      - ./src:/go/src
     ports:
       - "8080:8080"
